@@ -30,22 +30,32 @@
 // practice question 1
  
 
-function countvowels(str){
+// function countvowels(str){
+//     let count=0
+// console.log(str)
+// for (let char of str){
+//     // console.log(char)
+//     if(char==="a" || char==="e" || char==="i "|| char==="o" || char==="u"){
+//     count++
+// }
+// }
+// console.log(count)
+// }
+
+
+// countvowels("abs")
+
+const countvowels=(str)=>{
+    console.log(str)
     let count=0
-console.log(str)
-for (let char of str){
-    // console.log(char)
-    if(char==="a" || char==="e" || char==="i "|| char==="o" || char==="u"){
-    count++
+    for(let char of str){
+        if(char==="a" || char==="e" || char==="i"|| char==="o" || char==="u"){
+            count++
+        }
+    }
+    console.log(count)
 }
-}
-console.log(count)
-}
-
-
-countvowels("abs")
-
-
+countvowels("apnacllege")
 
     </script>
 </body>
