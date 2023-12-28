@@ -45,17 +45,26 @@
 
 // countvowels("abs")
 
-const countvowels=(str)=>{
-    console.log(str)
-    let count=0
-    for(let char of str){
-        if(char==="a" || char==="e" || char==="i"|| char==="o" || char==="u"){
-            count++
-        }
-    }
-    console.log(count)
+//practice question
+
+// let num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,];
+
+// let evenNum = num.filter((val)=>{
+//     return val >3
+// })
+// console.log(evenNum)
+   let n =prompt("Enter Any Number");
+let arr = [];
+
+for (let i=0; i<n; i++){
+    arr[i] = i
 }
-countvowels("apnacllege")
+console.log(arr);
+
+let sum = arr.reduce((pre,curr)=>{
+    return pre + curr
+});
+console.log(sum)
 
     </script>
 </body>
